@@ -1,0 +1,44 @@
+.board-tile-content-container {
+  border: none !important;
+  border-radius: 3px;
+}
+.work-item-type-icon-host,
+.board-tile .field-container.additional-field .field-label,
+.identity-picker-resolved-name {
+  display: none;
+}
+.agile-board
+  .board-tile
+  .board-tile-content-container
+  .board-tile-content-bottom-border {
+  display: grid;
+  grid-template-areas:
+    "title title title"
+    "iteration iteration iteration"
+    "tags tags name";
+  border: none;
+  box-shadow: 2px 3px 5px rgb(0 0 0 / 10%);
+  border-radius: 3px;
+}
+.board-tile-content .id-title-container,
+.tbTile .id-title-container {
+  grid-area: title;
+}
+.board-tile .container {
+  grid-area: name;
+}
+.identity-picker-display {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2px;
+}
+.tags.field-container,
+.field-container.additional-field {
+  grid-area: tags;
+}
+.non-combo-behavior.ellipsis.tree.additional-field.lastAdditionalField {
+  grid-area: iteration;
+}
+.tag-container {
+  border: none;
+}
