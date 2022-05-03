@@ -4,9 +4,11 @@
 }
 .work-item-type-icon-host,
 .board-tile .field-container.additional-field .field-label,
+.board-tile-container,
 .identity-picker-resolved-name {
-  display: none;
+  display: none !important;
 }
+
 .agile-board
   .board-tile
   .board-tile-content-container
@@ -16,10 +18,11 @@
     "title title title"
     "iteration iteration iteration"
     "tags tags name";
-  border: none;
+  border: none !important;
   box-shadow: 2px 3px 5px rgb(0 0 0 / 10%);
   border-radius: 3px;
 }
+
 .board-tile-content .id-title-container,
 .tbTile .id-title-container {
   grid-area: title;
@@ -27,6 +30,7 @@
 .board-tile .container {
   grid-area: name;
 }
+
 .identity-picker-display {
   display: flex;
   justify-content: flex-end;

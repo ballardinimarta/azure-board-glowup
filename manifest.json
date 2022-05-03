@@ -1,6 +1,5 @@
 {
-  "manifest_version": 2,
-
+  "manifest_version": 3,
   "name": "Azure Board Glowup",
   "version": "0.1.0",
   "description": "A stylesheet to declutter the Azure DevOps Board UI",
@@ -8,7 +7,7 @@
   "content_scripts": [
     {
       "css": ["styles.css"],
-      "matches": ["https://dev.azure.com/*/*/_boards/board/"]
+      "matches": ["https://dev.azure.com/*"]
     }
   ]
 }
