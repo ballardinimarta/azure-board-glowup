@@ -31,7 +31,7 @@
   grid-area: name;
 }
 
-.identity-picker-display {
+.agile-board .board-tile .identity-picker-display {
   display: flex;
   justify-content: flex-end;
   padding-right: 2px;
