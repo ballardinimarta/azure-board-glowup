@@ -46,3 +46,24 @@
 .tag-container {
   border: none;
 }
+
+// Header stuff above board
+.vss-Hub .vss-HubPivotBar .vss-PivotBar--bar-two-line .vss-PivotBar--header {
+  display: none;
+}
+
+.vss-PivotBar .vss-PivotBar--pivots.tall {
+  display: none;
+}
+
+.vss-PivotBar
+  .vss-PivotBar--bar.tall
+  .vss-PivotBar--commandBar
+  .ms-CommandBar-primaryCommands
+  .ms-CommandBarItem {
+  display: none;
+}
+
+.vss-PivotBar--separator {
+  display: none;
+}
