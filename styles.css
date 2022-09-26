@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
+
+div.bowtie-icon.bowtie-math-plus-box-light {
+  color: #689ac9
+}
+
+div.board-tile-content-container {
+  transition: 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transform: scale(1);
+
+  border-radius: 1px 5px 5px 1px;
+}
+
+div.board-tile-content-container:hover {
+  transform: scale(1.05);
+}
+
+.work-item-type-icon-host,
+.board-tile .field-container.additional-field .field-label,
+.board-tile-container {
+  display: none !important;
+}
+
+.agile-board .board-tile .board-tile-content-container .board-tile-content-bottom-border {
+  border: none !important;
+  display: grid;
+  grid-template-areas:
+    "title title title"
+    "iteration iteration iteration"
+    "name name name"
+    "tags tags tags";
+  box-shadow: 2px 3px 5px rgb(0 0 0 / 10%);
+  border-radius: 3px;
+}
+
+.board-tile-content .id-title-container,
+.tbTile .id-title-container {
+  grid-area: title;
+}
+
+.board-tile .container {
+  grid-area: name;
+}
+
+.tags.field-container,
+.field-container.additional-field {
+  grid-area: tags;
+}
+
+.non-combo-behavior.ellipsis.tree.additional-field.lastAdditionalField {
+  grid-area: iteration;
+}
+
+.tag-container {
+  border: none;
+}
+
+span.clickable-title {
+  font-size: 12px;
+}
+
+
+
+div.form-section {
+  width: 100%;
+  grid-area: form;
+}
+
+div.bottom-section {
+  width: 100%;
+  grid-area: input;
+
+}
+
+div.wrapping-container {
+  width: 100%;
+  grid-area: suggestions;
+
+}
+
+div.wrapping-container>div.section3 {
+  display: none;
+}
+
+div.section-container {
+  display: grid;
+  grid-template-areas: "form"
+    "input"
+    "suggestions";
+}
+
+div.member-header.ui-droppable {
+  background-color: #c8d5da;
+}
+
+div.swimlane-header-title.editable {
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+div.bowtie-icon.bowtie-chevron-up.swimlane-expand-collapse-chevron {
+  display: none;
+}
+
+i.vss-Breadcrumb--item-leftIcon.vss-HubBreadcrumb--item-leftIcon.board-title-icon.vss-Icon.root-53 {
+  display: none;
+}
+
+span.internal-breadcrumb--item.vss-Breadcrumb--itemText.vss-HubBreadcrumb--itemText.ellipsis-text {
+  font-weight: 700;
+}
