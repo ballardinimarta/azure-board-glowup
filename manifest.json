@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Azure Board Glowup",
+  "name": "Azure Board Glowup - Märta version",
   "version": "0.0.0.1",
   "description": "A stylesheet to declutter the Azure DevOps Board UI",
   "icons": {
